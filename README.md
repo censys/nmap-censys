@@ -25,7 +25,7 @@ The results can be written to file with the outfile script argument `censys-api.
 
 ## Warning
 
-nmap will still scan the target host normally. If you only want to look up the target in Shodan you need to include the `-sn -Pn -n` flags.
+nmap will still scan the target host normally. If you only want to look up the target in Censys you need to include the `-sn -Pn -n` flags.
 
 
 # Example Output
