@@ -8,6 +8,8 @@ Simple place the censys-api.nse script into your nmap scripts folder. e.g:
 
 	cp censys-api.nse /usr/share/nmap/scripts/
 
+If `nmap` is installed on macOS via [Homebrew](https://brew.sh/), the scripts folder might instead be at `/usr/local/share/nmap/scripts/`.
+
 # Usage
 
 Invoke the script like you would any other NSE script:
