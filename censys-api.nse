@@ -40,12 +40,12 @@ include the -sn -Pn -n flags.
 -- | 80    http   httpd    2.4.7
 -- |_22    ssh    OpenSSH  6.6.1p1
 --
---@args censys-api.outfile Write the results to the specified CSV file
---@args censys-api.apiid Specify the Censys API ID. This can also be hardcoded in the nse file.
---@args censys-api.apisecret Specify the Censys API secret. This can also be hardcoded in the nse file.
---@args censys-api.target Specify a single target to be scanned.
+-- @args censys-api.outfile Write the results to the specified CSV file
+-- @args censys-api.apiid Specify the Censys API ID. This can also be hardcoded in the nse file.
+-- @args censys-api.apisecret Specify the Censys API secret. This can also be hardcoded in the nse file.
+-- @args censys-api.target Specify a single target to be scanned.
 --
---@xmloutput
+-- @xmloutput
 -- <table key="hostnames">
 --   <elem>scanme.nmap.org</elem>
 -- </table>
